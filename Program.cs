@@ -129,7 +129,6 @@ class VscSettings()
     public string P3 { get; } = "none";
     [JsonPropertyName("window.titleBarStyle")]
     public string P4 { get; } = "custom";
-
     [JsonPropertyName("workbench.enableExperiments")]
     public bool P5 { get; } = false;
 }
